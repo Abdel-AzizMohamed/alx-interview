@@ -5,7 +5,7 @@
 def island_perimeter(grid):
     """Computes the perimeter of an island"""
     perimeter = 0
-    if type(grid) != list:
+    if type(grid) != list:  # noqa
         return 0
     n = len(grid)
     for i, row in enumerate(grid):
